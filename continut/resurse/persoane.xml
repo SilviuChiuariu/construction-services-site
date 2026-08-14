@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persoane>
+    <persoana>
+        <nume>Chiuariu</nume>
+        <prenume>Silviu</prenume>
+        <varsta>21</varsta>
+        <adresa>
+            <strada>Strada Nucilor</strada>
+            <numar>10</numar>
+            <localitate>Piatra Neamț</localitate>
+            <judet>Neamț</judet>
+            <tara>România</tara>
+        </adresa>
+        <contact>
+            <email>marian.popescu@example.com</email>
+            <telefon>+40787557894</telefon>
+        </contact>
+        <educatie>
+            <institutie>Universitatea Gheorghe Asachi</institutie>
+            <diploma>Licență în Informatică</diploma>
+            <an_absolvire>2014</an_absolvire>
+        </educatie>
+        <experienta>
+            <job>
+                <titlu>Software Engineer</titlu>
+                <companie>ABC Tech</companie>
+                <perioada>2015-2022</perioada>
+            </job>
+        </experienta>
+        <limbi>
+            <limba>Română</limba>
+            <limba>Engleză</limba>
+            <limba>Germană</limba>
+        </limbi>
+    </persoana>
+    
+    <persoana>
+        <nume>Ionescu</nume>
+        <prenume>Maria</prenume>
+        <varsta>29</varsta>
+        <adresa>
+            <strada>Bulevardul Unirii</strada>
+            <numar>45</numar>
+            <localitate>Cluj-Napoca</localitate>
+            <judet>Cluj</judet>
+            <tara>România</tara>
+        </adresa>
+        <contact>
+            <email>maria.ionescu@example.com</email>
+            <telefon>+40798765432</telefon>
+        </contact>
+        <educatie>
+            <institutie>Universitatea Babeș-Bolyai</institutie>
+            <diploma>Master în Marketing</diploma>
+            <an_absolvire>2017</an_absolvire>
+        </educatie>
+        <experienta>
+            <job>
+                <titlu>Marketing Manager</titlu>
+                <companie>XYZ Media</companie>
+                <perioada>2018-2023</perioada>
+            </job>
+        </experienta>
+        <limbi>
+            <limba>Română</limba>
+            <limba>Engleză</limba>
+            <limba>Franceză</limba>
+        </limbi>
+    </persoana>
+</persoane>

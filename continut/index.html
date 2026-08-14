@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acasă - Construcții Profesionale</title>
+    <link rel="stylesheet" href="css/stil.css">
+    <script src="js/script.js"></script> 
+</head>
+
+<body onload="schimbaContinut('acasa')">
+    <header>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Meniu</button>
+        <nav id="menu" class="hidden">
+            <ul>
+                <li><a onclick="schimbaContinut('acasa')">Acasă</a></li>
+                <li><a onclick="schimbaContinut('inregistreaza')">Înregistrează</a></li>
+                <li><a onclick="schimbaContinut('video')">Video</a></li>
+                <li><a onclick="schimbaContinut('despre')">Despre</a></li>
+                <li><a onclick="schimbaContinut('desen')">Schițe</a></li>
+                <li><a onclick="schimbaContinut('invata')">Învăț!</a></li>
+                <li><a onclick="schimbaContinut('persoane', 'js/persoane.js', 'incarcaPersoane')">Persoane</a></li>
+                <li><a onclick="schimbaContinut('verifica', 'js/verifica.js', 'verificaUtilizator')">Verifică utilizator</a></li>
+                <li><a onclick="schimbaContinut('cumparaturi', 'js/cumparaturi.js', 'adaugaProdus')">Cumpărături</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="DivIndexGeneral">
+        <main id="continut">
+            
+        </main>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Construcții Profesionale. Toate drepturile rezervate</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<header>
+<h1>Bine ai venit la secțiunea Învăț!</h1>
+</header>
+
+<aside>
+    <h2>Meniu</h2>
+    <ul>
+        <li><a href="#sectiunea1">Informații utilizator</a></li>
+        <li><a href="#sectiunea2">Desenare pe Canvas</a></li>
+        <li><a href="#sectiunea3">Modificare tabel</a></li>
+    </ul>
+</aside>
+
+<main>
+    
+    <section id="sectiunea1">
+        <h2>Informații utilizator</h2>
+        <table>
+            <thead>
+                </td>
+                    <th>Data și ora curentă:</p></th>
+                    <th>URL curent:</p></th>
+                    <th>Browser:</p></th>
+                    <th>Sistem de operare:</p></th>
+                    <th>Locație:</p></th>
+                </td>
+            </thead>
+            <tbody>
+                <td><p id="info1"></p></td>
+                <td><p id="info2"></p></td>
+                <td><p id="info3"></p></td>
+                <td><p id="info4"></p></td>
+                <td><p id="info5"></p></td>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="sectiunea2">
+        <h2>Desenare pe Canvas</h2>
+        <div class="canvas">
+            <div class="culoareCanvas">
+                <label for="strokeColor">Culoare contur:</label>
+                <input type="color" id="strokeColor" value="#000000" >
+                    
+                <label for="fillColor">Culoare umplere:</label>
+                <input type="color" id="fillColor" value="#ff0000" >
+            </div>
+            <canvas id="canvas" width="600" height="400" style="border:1px solid black;"></canvas>
+        </div>
+    </section>
+
+    <section id="sectiunea3">
+        <h2>Modificare tabel - Arhitectura la construcții</h2>
+        
+        
+        <label for="pozitie">Poziția inserării:</label>
+        <input type="number" id="pozitie" min="0" placeholder="Index linie/coloană">
+
+        <label for="bgColor">Culoare fundal:</label>
+        <input type="color" id="bgColor" value="#ffff00">
+    
+        <button onclick="adaugaLinie()" class="InvatButton">Adaugă linie</button>
+        <button onclick="adaugaColoana()" class="InvatButton">Adaugă coloană</button>
+
+        <table id="tabel">
+            <thead>
+                <tr>
+                    <th>Element</th>
+                    <th>Material</th>
+                    <th>Caracteristici</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pereți</td>
+                    <td>Beton armat</td>
+                    <td>Rezistență ridicată</td>
+                </tr>
+                <tr>
+                    <td>Acoperiș</td>
+                    <td>Tigla ceramică</td>
+                    <td>Durabilitate mare</td>
+                </tr>
+                <tr>
+                    <td>Ferestre</td>
+                    <td>Sticlă termoizolantă</td>
+                    <td>Eficiență energetică</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
